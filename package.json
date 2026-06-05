@@ -1,0 +1,33 @@
+{
+  "name": "artefact",
+  "version": "1.0.0",
+  "description": "Веб-приложение для коллекционирования и обмена цифровыми активами",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "digital-assets",
+    "collectibles",
+    "marketplace",
+    "nft",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.1.1",
+    "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
